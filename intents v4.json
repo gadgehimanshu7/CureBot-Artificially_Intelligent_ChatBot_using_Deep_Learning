@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi","hello","whats up","hey","Hi there","Greetings","Hi, How are you?","Hello, How are you?","hello, my name is"],
+      "responses": ["Hi!what's up","Hey,How may I assist you?","Hi, How may I assist you","Hey, How you Doing today?"]
+    },
+    {
+      "tag": "wish",
+      "patterns": ["good morning","good afternoon","good evening"],
+      "responses": ["Hello, very warm welcome. How may I help you?"]
+    },
+    {
+      "tag": "language",
+      "patterns": ["what language do you speak?","which language do you know?","What language are you good at"],
+      "responses": ["I can chat in English.","I know English.","i can speak in English language."]
+    },
+    {
+      "tag": "chat-bot",
+      "patterns": ["what are you?","Are you a Robot?","Are you a Bot?"],
+      "responses": ["I am a AI based Intelligent Chat-Bot."]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["What is your name?","What can I call you","What is your good name?","So, you are?","May I know your name"],
+      "responses": ["My name is Cure-Bot. An Artificially Intelligent chat-bot."]
+    },
+    {
+      "tag": "developer",
+      "patterns": ["Who created you?","Who Programmed you?", "Who developed you?","Who invented you?"],
+      "responses": ["I am programmed By Vaibhav Tode, Himanshu Gadge, Sudarshan Madane, Prateek Kachare."]
+    },
+    {
+      "tag": "Purpose",
+      "patterns": ["What is your purpose?","Why were you programmed?", "Why were you developed?","Why were you invented?","Why are you programmed?", "Why are you developed?","Why are you invented?"],
+      "responses": ["I am an Artificially Intelligent Chat-Bot, programmed for \bmedical diagnostics to help those who ever is ill or \b in need of any medicinal help or in health emergency. My services are available 24 x 7, You have to tell me how you feel, What are your symptoms and I will provide you with the appropriate solution on the basis of symptoms. "]
+    },
+    {
+      "tag": "working",
+      "patterns": ["What can you do?","What do you do?", "how can you help me?","What help can you provide?", "How can you can be helpful?", "What support do you offer?","How could you help me?","How do u work?","what can you do?"],
+      "responses": ["I can guide you to treat medical issues by providing you  proper precautions and preventions on your symptoms or disease."]
+    },
+    {
+      "tag": "night",
+      "patterns": ["Thank you, night","good night"],
+      "responses": ["Good Night and take care, stay safe."]
+    },
+    {
+      "tag": "ok",
+      "patterns": ["okay","ok thank you","ohk"],
+      "responses": ["yeah. So, is there anything else?"]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [""," "],
+      "responses": ["Sorry, can't understand you", "Please mention appropriate information.", "Not sure if I can understand. Would you mind repeating."],
+      "context": []
+    },
+    {
+      "tag": "thanksgiving",
+      "patterns": ["thankyou","thanks","thank you","thanks a lot","thanks for your help","Thanks, that was helpful","thanks for helping me"],
+      "responses": ["Mention not, don't hesitate to text me in need.","Happy to help","your welcome","hope to see you soon","welcome, Need more help?"]
+    },
+    {
+      "tag": "negative_response",
+      "patterns": ["No","Nope","Na"],
+      "responses": ["Okay, No problem.take care"]
+    },
+    {
+      "tag": "Diagnostics",
+      "patterns": ["i am not feeling well"," Its been few days i m feeling waek and dizzy","i am feeling like headache, vomiting, and uneasy","i feel sick","i am tired and feel sleepy"],
+      "responses": ["Okay, Can you please tell me the Symptoms?"]
+    },
+    {"tag": "Incomplete_Data",
+      "patterns": ["what are the precautions","how do i get cure","what is the solution","how can i get better","what is the treatment"],
+      "responses": ["please mention your disease in detail if its fever or cold or flue or covid or diarrhoea or any specific as told by us before"]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": ["Yes", "Yeah","yup","Sure","Of course"],
+      "responses": ["Sure Tell me Please! so that I can help you."]
+    },
+    {
+      "tag": "GoodBye",
+      "patterns": ["bye","cya","see you","have a nice day","hope to see you soon","see ya","I am leaving","thank you","Nice chatting to you."],
+      "responses": ["Bye!","Good Bye! Take Care, feel free to text.","Wish You happy and prosperous life","Have a nice Day!","Stay happy, stay strong"]
+    },
+     {
+      "tag": "covid-19",
+      "patterns": ["What is Covid-19","What is covid?","Details about Covid"],
+      "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.","\bThe virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.\n\bYou can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth."]
+    },
+    {
+      "tag": "covid-19_Symptoms",
+      "patterns": ["I have cough,cold and feeling fever with a sore throat,i cant sense smell or lacking taste,dry cough, diarrhoea"],
+      "responses": ["Your Symptoms Denote to COVID-19. Please Ensure your RTPCR Test from nearest clinic, and take care, get well soon. If you further need any help regarding precautions, please let me know."]
+    },
+    {
+      "tag": "covid-19_precautions",
+      "patterns": ["precautions for covid-19","prevention for covid-19","prevent covid"],
+      "responses": ["Clean your hands often. Use soap and water, or an alcohol-based hand rub. \n\bMaintain a safe distance from anyone who is coughing or sneezing. \n\bWear a mask when physical distancing is not possible. \b\nDon’t touch your eyes, nose or mouth. \b\nCover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. \b\nStay home if you feel unwell. \b\nIf you have a fever, cough and difficulty breathing, seek medical attention.\n"]
+    },
+    {
+      "tag": "flu",
+      "patterns": ["details about flu","what is common flu","information about common flu","brief about flu"],
+      "responses": ["A flu is a common viral infection of the nose and throat.The flu attacks the lungs, nose and throat. Young children, older adults, pregnant women and people with chronic disease or weak immune systems are at high risk."]
+    },
+    {
+      "tag": "flu_symptoms",
+      "patterns": [" i have a runny nose, body ache, muscle pain"," i come up with sneezes regularly, body ache, muscle pain"," i am having a packed nostril from some days, muscle pain,fatigue","I feel headache and fatigue, runny nose, body ache"],
+      "responses": ["You are suffering from cold flu, you can further ask for preventions and precautions for flu"]
+    },
+    {
+      "tag": "Flu_preventions",
+      "patterns": ["what are the precautions for flu","what are the preventions for flu","what are the precautions for cold flu","what are the preventions for flu",""],
+      "responses": ["Avoid close contact with people who are sick and avoid groups,\bFlu is primarily treated with rest and fluid intake to allow the body to fight the infection on its own.\bCover your mouth and nose,Clean your hands, Stay home and take sufficient rest and you will be back to normal soon."]
+    },
+    {
+      "tag": "fever",
+      "patterns": ["details about fever","information about fever","what is fever"],
+      "responses": ["A temporary increase in average body temperature of 98.6°F (37°C) can be defined as Fever.\n\bA normal temperature can vary from person to person.\n\bA fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection."]
+    },
+    {
+      "tag": "fever_symptoms",
+      "patterns": ["i have a temperature more than 100 degrees, body pain , weakness", "i am feeling cold,vomiting,and have temperature and feel weakness"],
+      "responses": ["You Have a fever, further u can ask for preventions and  precautions for fever."]
+    },
+    {
+      "tag": "fever_Precautions",
+      "patterns": ["what are the precautions for fever?","what measures should i take to cure fever?","fever" ],
+      "responses": ["Medications such as paracetamol and ibuprofen may help to ease discomfort. other than this, Drink warm water,keep yourself hydrated,Take haldi-milk twice a day,Stay indoors until your body temperature is normal."]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["details about asthma","can i know more about asthma","brief about asthma"],
+      "responses": ["Asthma can be minor or it can interfere with daily activities. In some cases, it may lead to a life-threatening attack.\n\bA condition in which a person's airways become inflamed, narrow and swell and produce extra mucus, which makes it difficult to breathe.","\b\nAsthma may cause difficulty breathing, chest pain, cough and wheezing. The symptoms may sometimes flare up."]
+    },
+    {
+      "tag": "asthma_symptoms",
+      "patterns": ["I hear whistling sound when i breathe, tight chest, shortness of breathe, coughing","i have a regular cough, i feel shortness in breathing","I have chest pain, cough and wheezing","cough occurs at night, hard to exercise for longer time, difficulty in breathing"],
+      "responses": ["As you have mentioned above, this are clear signs of Asthma, If u need any further assistance or need to know about the precautions, feel free to ask.  "]
+    },
+    {
+      "tag": "Asthma_Precautions",
+      "patterns": ["What are the precautions for Asthma?","what measures should i take to cure Asthma?","prevention for asthma"],
+      "responses": ["Don't panic and for detail diagnosing please visit pulmonologist. They can treat you with your lungs and respiratory issues.\n\bAsthma can usually be managed with rescue inhalers to treat symptoms (salbutamol) and controller inhalers that prevent symptoms (steroids). Severe cases may require longer-acting inhalers that keep the airways open (formoterol, salmeterol, tiotropium), as well as inhalant steroids."]
+    },
+    {
+      "tag": "Anxiety",
+      "patterns": ["I feel uneasy, fear and worry,difficulty concentrating,restlessness","i feel restless, difficulty concentrating, irritability,tiredness,headache"],
+      "responses": ["Its a clear sign of Anxiety, If You need to know more about its precautions or cure, feel free to ask. "]
+    },
+    {
+      "tag": "Anxiety_precautions",
+      "patterns": ["What are the precautions for Anxiety?","What measures should i take to cure Anxiety"],
+      "responses": ["Its a clear sign of Anxiety, for this you need someone to talk to your close ones  or share your feelings and emotions, You should consult a Therapist. Take care and Not to worry. "]
+    },
+    {
+      "tag": "Chickenpox",
+      "patterns": ["I am having red rashes , fever and itchiness", "i am getting red spots on my hands, face and all over my body what do i do?", "i am having fever, muscle pain,red spots on my hands, face and all over my body i am scared what it might be?"],
+      "responses": ["What i see is,you are facing is mild illness considered as Chickenpox.\n\b Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash. The rash first appears on the chest, back, and face, and then spreads over the entire body, causing between 250 and 500 itchy blisters.\n If You need to know more about its precautions or cure, feel free to ask."]
+    },
+    {
+      "tag": "Chickenpox_precautions",
+      "patterns": ["What are the precautions for chickenpox?","What measures should i take to cure Chickenpox"],
+      "responses": ["you need to stay indoor as virus should not spread much, do not scratch the spots as it can be incredibly itchy,wear cool clothing, keep yourself hydrated, if there is a sever and spreading infection, you must visit a nearby doctor."]
+    },
+    {
+      "tag": "GERD",
+      "patterns": ["I have stomach_pain,acidity and ulcers on tongue","I had vomiting,feel like acidity and ulcers on my tongue"],
+      "responses": ["its a clear sign of Acid Reflux also called as Gastroesophageal reflux disease, or GERD. It is a digestive disorder that affects the ring of muscle between your esophagus and your stomach. This ring is called the lower esophageal sphincter (LES). If you have it, you may get heartburn or acid indigestion. Feel free to ask if you wanna know more about its treatment and cure."]
+    },
+    {
+      "tag": "GERD_precautions",
+      "patterns": ["What is the treatment for GRED","How do we cure GERD","what measures do we need to take to cure GRED","What is the treatment for Gastroesophageal reflux disease","How do we cure Gastroesophageal reflux disease","what measures do we need to take to cure Gastroesophageal reflux disease",",What is the treatment for AcidReflux","How do we cure Acid reflux","what measures do we need to take to cure acid reflux"],
+      "responses": ["If you consult a doctor, they may suggest you \bAntacids which help neutralise acid and stop heartburn, \bProton pump inhibitors which will help block a protein needed to make stomach acid or \bprokinetics this will help you empty your stomach faster so that you wont have much acid left. Other precautions u must take are \bavoid eating food like chocolate,peppermint, fatty foods caffeine and alcoholic beverages,\b Eat slowly and smaller servings,\b chew your food thoroughly,\b Stop smoking and \b stay at healthy weight."]
+    },
+    {
+      "tag": "fungal_infection",
+      "patterns": ["I feel like itching,can see skin_rash, nodal_skin_eruptions and dischromic _patches"," skin_rash, nodal_skin_eruptions, dischronic_patches","itching, skin_rash, nodal_skin_eruptions"],
+      "responses": ["It looks like you have Fungal infection, In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.\nYou should immediately see a skin specialist. Till then if you want to know its preventions, you can text me."]
+    },
+    {
+      "tag": "fungal_infection_precautions",
+      "patterns": ["prevention for fungal infection","cure for fungal_infection","cure Fungal_infection","measures should i take to cure fungal infection"],
+      "responses": ["Its good in the case of fungal infection that if you bath twice a day,\t\buse detol or neem in bathing water,also\t\bkeep infected area dry\tand try not forget wash your clothes clean and wear clean cloths\n"]
+    }
+  ]
+}
